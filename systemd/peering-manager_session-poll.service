@@ -1,0 +1,9 @@
+[Unit]
+Description=Poll peering sessions from routers
+
+[Service]
+Type=oneshot
+User=peering-manager
+Group=peering-manager
+WorkingDirectory=/opt/peering-manager
+ExecStart=/opt/peering-manager/venv/bin/python3 manage.py poll_peering_sessions --all

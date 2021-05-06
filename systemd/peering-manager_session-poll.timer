@@ -1,0 +1,8 @@
+[Unit]
+Description=Poll peering sessions from routers every hour
+
+[Timer]
+OnCalendar=*:00:00
+
+[Install]
+WantedBy=timers.target
