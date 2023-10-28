@@ -1,5 +1,6 @@
 [Unit]
-Description=Push configuration to routers
+Description=Peering Manager Push Configuration To Routers Service
+Documentation=https://peering-manager.readthedocs.io/
 
 [Service]
 Type=oneshot

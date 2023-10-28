@@ -1,5 +1,6 @@
 [Unit]
-Description=Sync PeeringDB at 2:30
+Description=Peering Manager PeeringDB Sync Timer
+Documentation=https://peering-manager.readthedocs.io/
 
 [Timer]
 OnCalendar=02:30:00

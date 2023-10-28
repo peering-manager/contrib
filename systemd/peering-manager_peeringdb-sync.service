@@ -1,5 +1,6 @@
 [Unit]
-Description=PeeringDB sync
+Description=Peering Manager PeeringDB Sync Service
+Documentation=https://peering-manager.readthedocs.io/
 
 [Service]
 Type=oneshot

@@ -1,5 +1,6 @@
 [Unit]
-Description=Push router configuration every hour 5 minutes before full hour
+Description=Peering Manager Push Configuration To Routers Timer
+Documentation=https://peering-manager.readthedocs.io/
 
 [Timer]
 OnCalendar=*:55:00

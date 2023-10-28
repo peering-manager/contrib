@@ -1,18 +1,15 @@
 [Unit]
-Description=Peering Manager Request Queue Worker Service
+Description=Peering Manager Housekeeping Service
 Documentation=https://peering-manager.readthedocs.io/
 After=network-online.target
 Wants=network-online.target
 
 [Service]
-Type=simple
+Type=oneshot
 User=peering-manager
 Group=peering-manager
 WorkingDirectory=/opt/peering-manager
-ExecStart=/opt/peering-manager/venv/bin/python3 /opt/peering-manager/manage.py rqworker
-Restart=on-failure
-RestartSec=30
-PrivateTmp=true
+ExecStart=/opt/peering-manager/venv/bin/python3 manage.py housekeeping
 
 [Install]
 WantedBy=multi-user.target

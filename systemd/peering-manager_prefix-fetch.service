@@ -1,5 +1,6 @@
 [Unit]
-Description=Fetch IRR AS-SET prefixes
+Description=Peering Manager Prefix Fetcher Service
+Documentation=https://peering-manager.readthedocs.io/
 
 [Service]
 Type=oneshot

@@ -1,5 +1,6 @@
 [Unit]
-Description=Poll peering sessions from routers every hour
+Description=Peering Manager Session Polling Timer
+Documentation=https://peering-manager.readthedocs.io/
 
 [Timer]
 OnCalendar=*:00:00

@@ -1,5 +1,6 @@
 [Unit]
-Description=Poll peering sessions from routers
+Description=Peering Manager Session Polling Service
+Documentation=https://peering-manager.readthedocs.io/
 
 [Service]
 Type=oneshot

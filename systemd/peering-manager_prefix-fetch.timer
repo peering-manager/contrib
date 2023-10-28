@@ -1,5 +1,6 @@
 [Unit]
-Description=Fetch IRR AS-SET prefixes at 4:30
+Description=Peering Manager Prefix Fetcher Timer
+Documentation=https://peering-manager.readthedocs.io/
 
 [Timer]
 OnCalendar=04:30:00
